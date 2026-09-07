@@ -1,0 +1,72 @@
+[
+  {
+    "forecast_id": "C2-F01",
+    "event": "高保真、可审计的个人外脑在专业知识工作者中成为常用认知基础设施",
+    "resolution_year": 2032,
+    "probability": 0.8,
+    "resolution_rule": "至少三个独立机构完成持续一年以上、带来源和撤销机制的个人外脑部署。"
+  },
+  {
+    "forecast_id": "C2-F02",
+    "event": "经过验证的器官级健康数字孪生进入至少一种专科常规决策支持",
+    "resolution_year": 2035,
+    "probability": 0.65,
+    "resolution_rule": "存在监管认可或多中心前瞻验证，且模型动态更新并影响临床决策。"
+  },
+  {
+    "forecast_id": "C2-F03",
+    "event": "长期居家脑机接口成为严重瘫痪人群的可持续通信与计算机控制方案",
+    "resolution_year": 2040,
+    "probability": 0.75,
+    "resolution_rule": "至少两个系统实现跨一年独立居家使用并有公开长期性能数据。"
+  },
+  {
+    "forecast_id": "C2-F04",
+    "event": "首批临床有意义的认知神经假体能够稳定补偿某类记忆或执行功能",
+    "resolution_year": 2045,
+    "probability": 0.45,
+    "resolution_rule": "随机或严格对照的人体研究显示跨月持续、可重复的功能增益。"
+  },
+  {
+    "forecast_id": "C2-F05",
+    "event": "可审计个人外脑能够保存十年以上记忆来源、价值修订和目的谱系",
+    "resolution_year": 2050,
+    "probability": 0.7,
+    "resolution_rule": "至少一项公开项目提供十年纵向数据、迁移记录、访问控制与第三方复核。"
+  },
+  {
+    "forecast_id": "C2-F06",
+    "event": "出现可信的非破坏性部分神经功能跨基质迁移实验",
+    "resolution_year": 2060,
+    "probability": 0.35,
+    "resolution_rule": "原神经回路持续运行，人工组件重叠接管并可撤销，完成因果干预验证。"
+  },
+  {
+    "forecast_id": "C2-F07",
+    "event": "出现满足多种身份理论最低门槛的渐进式人机混合连续候选",
+    "resolution_year": 2070,
+    "probability": 0.22,
+    "resolution_rule": "至少两个独立团队对神经因果、记忆、目的、具身和关系连续进行预注册复现。"
+  },
+  {
+    "forecast_id": "C2-F08",
+    "event": "人类尺度全脑仿真能在受限范围重现个体特定认知功能",
+    "resolution_year": 2080,
+    "probability": 0.3,
+    "resolution_rule": "系统对未见任务的个体行为和神经反应具有可重复预测力，但不等同于意识证明。"
+  },
+  {
+    "forecast_id": "C2-F09",
+    "event": "至少一个司法辖区给予数字身份分支有限法律地位",
+    "resolution_year": 2100,
+    "probability": 0.55,
+    "resolution_rule": "法律允许数字分支承担有限合同、代表、数据或遗产职责，并明确与原主体的差异。"
+  },
+  {
+    "forecast_id": "C2-F10",
+    "event": "科学界形成破坏性上传保留同一第一人称主体的强共识",
+    "resolution_year": 2100,
+    "probability": 0.15,
+    "resolution_rule": "跨意识理论、哲学和神经科学形成明确多数共识，而非仅接受功能复制。"
+  }
+]

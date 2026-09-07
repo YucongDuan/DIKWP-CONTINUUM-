@@ -1,0 +1,85 @@
+[
+  {
+    "hypothesis_id": "H1_BIOLOGICAL_ORGANISM",
+    "name": "生物有机体连续性",
+    "description": "同一生命个体主要由持续的生物组织、代谢与身体闭环构成。",
+    "axis_weights": {
+      "biological_viability": 0.34,
+      "neural_integrity": 0.20,
+      "causal_continuity": 0.14,
+      "embodiment_interoception": 0.14,
+      "recoverability": 0.08,
+      "relational_continuity": 0.05,
+      "legal_identity": 0.05
+    },
+    "hard_requirements": {"biological_viability": 0.30}
+  },
+  {
+    "hypothesis_id": "H2_NEURAL_CAUSAL",
+    "name": "神经因果连续性",
+    "description": "同一人要求神经过程具有连续、重叠和可追踪的因果链。",
+    "axis_weights": {
+      "neural_integrity": 0.30,
+      "causal_continuity": 0.30,
+      "autobiographical_memory": 0.15,
+      "personality_values": 0.10,
+      "agency_purpose": 0.08,
+      "embodiment_interoception": 0.07
+    },
+    "hard_requirements": {"causal_continuity": 0.45}
+  },
+  {
+    "hypothesis_id": "H3_PSYCHOLOGICAL",
+    "name": "心理模式连续性",
+    "description": "记忆、人格、价值、推理习惯与目的的延续构成主要身份依据。",
+    "axis_weights": {
+      "autobiographical_memory": 0.25,
+      "personality_values": 0.25,
+      "agency_purpose": 0.20,
+      "causal_continuity": 0.10,
+      "relational_continuity": 0.10,
+      "digital_resilience": 0.10
+    }
+  },
+  {
+    "hypothesis_id": "H4_RELATIONAL_NARRATIVE",
+    "name": "关系—叙事连续性",
+    "description": "个体由承诺、关系、共同历史、责任和社会承认持续构成。",
+    "axis_weights": {
+      "relational_continuity": 0.28,
+      "legal_identity": 0.20,
+      "autobiographical_memory": 0.15,
+      "personality_values": 0.12,
+      "agency_purpose": 0.15,
+      "causal_continuity": 0.10
+    }
+  },
+  {
+    "hypothesis_id": "H5_FUNCTIONAL_PATTERN",
+    "name": "功能—算法模式连续性",
+    "description": "只要关键认知功能、行为反事实与自我修正模式得到高保真重建，身份可跨基质延续。",
+    "axis_weights": {
+      "autobiographical_memory": 0.18,
+      "personality_values": 0.18,
+      "agency_purpose": 0.18,
+      "digital_resilience": 0.18,
+      "recoverability": 0.12,
+      "legal_identity": 0.08,
+      "causal_continuity": 0.08
+    }
+  },
+  {
+    "hypothesis_id": "H6_PHENOMENAL_STREAM",
+    "name": "现象体验流连续性",
+    "description": "真正的本人延续要求主观体验流不中断或以可论证方式恢复；该假说保留不可消除的认识论残差。",
+    "axis_weights": {
+      "phenomenal_evidence": 0.25,
+      "causal_continuity": 0.25,
+      "neural_integrity": 0.18,
+      "embodiment_interoception": 0.14,
+      "autobiographical_memory": 0.08,
+      "agency_purpose": 0.10
+    },
+    "hard_requirements": {"causal_continuity": 0.50}
+  }
+]

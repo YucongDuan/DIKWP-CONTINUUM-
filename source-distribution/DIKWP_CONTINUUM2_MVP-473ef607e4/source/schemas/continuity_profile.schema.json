@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-CONTINUUM² Continuity Profile",
+  "type": "object",
+  "required": ["profile_id", "display_name", "horizon_start", "horizon_end", "baseline_axes", "purpose_contract"],
+  "properties": {
+    "profile_id": {"type": "string"},
+    "display_name": {"type": "string"},
+    "horizon_start": {"type": "integer"},
+    "horizon_end": {"type": "integer"},
+    "risk_tolerance": {"type": "number", "minimum": 0, "maximum": 1},
+    "notes": {"type": "string"},
+    "baseline_axes": {
+      "type": "object",
+      "minProperties": 12,
+      "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}
+    },
+    "purpose_contract": {"$ref": "purpose_contract.schema.json"}
+  }
+}

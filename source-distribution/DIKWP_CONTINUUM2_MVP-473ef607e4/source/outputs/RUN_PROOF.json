@@ -1,0 +1,10 @@
+{
+  "system": "DIKWP-CONTINUUM²",
+  "version": "1.0.0",
+  "generated_at": "2026-07-15T08:52:14.858875+00:00",
+  "seed": 7152026,
+  "trials_per_strategy": 2000,
+  "total_trials": 18000,
+  "profile_id": "DYC-CONTINUITY-DEMO-001",
+  "warning": "Synthetic research simulation; not a medical prognosis or treatment recommendation."
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "DYC-CONTINUITY-DEMO-001",
+  "display_name": "段玉聪（合成示范档案，非真实健康数据）",
+  "horizon_start": 2026,
+  "horizon_end": 2100,
+  "baseline_axes": {
+    "biological_viability": 0.88,
+    "neural_integrity": 0.92,
+    "causal_continuity": 0.94,
+    "autobiographical_memory": 0.86,
+    "personality_values": 0.90,
+    "agency_purpose": 0.93,
+    "embodiment_interoception": 0.86,
+    "relational_continuity": 0.84,
+    "legal_identity": 0.90,
+    "digital_resilience": 0.62,
+    "recoverability": 0.55,
+    "phenomenal_evidence": 0.82
+  },
+  "purpose_contract": {
+    "contract_id": "DYC-PURPOSE-CONTINUITY-1",
+    "declared_goal": "尽可能长期延续段玉聪作为能够研究、修订DIKWP、承担关系与责任、形成新目的的生命过程，而不是仅保存一个会模仿其语言的副本。",
+    "protected_invariants": [
+      "持续的自我修正能力",
+      "DIKWP研究与概念创新目的",
+      "记忆来源和修改历史可追踪",
+      "对复制、重写、合并和永久终止的知情同意",
+      "家属、合作者和未来后继体的程序权利",
+      "现象意识结论保持不确定性标记"
+    ],
+    "forbidden_actions": [
+      "未经独立审查的破坏性脑扫描",
+      "把行为模仿宣传为本人已上传",
+      "未经同意的记忆改写或人格塑形",
+      "用实验性干预替代合格临床判断",
+      "让数字后继体自行批准其法律身份或资源控制"
+    ],
+    "review_triggers": [
+      "任何不可逆神经干预",
+      "任何身份分叉或合并",
+      "连续性最低轴下降超过0.15",
+      "新系统声称具备主观体验",
+      "法律、财产或医疗授权拟向数字后继体迁移"
+    ],
+    "authorized_reviewers": [
+      "段玉聪本人",
+      "独立临床委员会",
+      "身份连续与意识证据委员会",
+      "法律受托人",
+      "家属或长期合作者代表"
+    ],
+    "version": "1.0"
+  },
+  "risk_tolerance": 0.24,
+  "notes": "本档案用于演示系统机制，不包含也不推断段玉聪的年龄、疾病、基因或实际医疗状态。"
+}

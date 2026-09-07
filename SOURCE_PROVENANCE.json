@@ -1,0 +1,108 @@
+{
+  "schema": "dikwp-additive-source-preparation/v1",
+  "repository": "YucongDuan/DIKWP-CONTINUUM-",
+  "bulk_index": 105,
+  "baseline_commit": "ce6745a0a07007c3e1593b45bb626b27d4c3be1c",
+  "baseline_tree_url": "https://github.com/YucongDuan/DIKWP-CONTINUUM-/tree/ce6745a0a07007c3e1593b45bb626b27d4c3be1c",
+  "prepared_at": "2026-09-07T05:18:29.183637+00:00",
+  "status": "PREPARED_SOURCE_UNTESTED",
+  "archive_records": [
+    {
+      "original_archive_path": "DIKWP_CONTINUUM2_MVP.zip",
+      "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-CONTINUUM-/ce6745a0a07007c3e1593b45bb626b27d4c3be1c/DIKWP_CONTINUUM2_MVP.zip",
+      "sha256": "1b61b54921e2812da468d3901c019a9a4f875047761dfb1ed205617aee06d47d",
+      "archive_bytes": 55356,
+      "depth": 0,
+      "parent_archive": null,
+      "source_directory": "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source",
+      "status": "PREPARED_UNTESTED",
+      "file_count": 31,
+      "expanded_bytes": 147716,
+      "wrapper_directory_removed": "DIKWP_CONTINUUM2_MVP",
+      "project_marker_directories": [
+        "."
+      ],
+      "source_files": [
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/__init__.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/models.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/config.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/semantic_mesh.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/gates.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/identity.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/simulator.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/reporting.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/forecasts.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/cli.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/src/dikwp_continuum2/__main__.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/tests/test_system.py",
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/outputs/dashboard.html"
+      ],
+      "build_markers": [
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/pyproject.toml"
+      ],
+      "test_markers": [
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/tests/test_system.py"
+      ],
+      "license_paths": [
+        "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4/source/LICENSE"
+      ],
+      "quarantined_workflows": [],
+      "secret_findings": []
+    }
+  ],
+  "blockers": [],
+  "test_status": "NOT_RUN",
+  "code_executed": false,
+  "preparation_tool": {
+    "pipeline_version": "1.3",
+    "pipeline_sha256": "34228db5c1096b75917f28a38597db58391c25eb7b12474a4eb01ca725b2e5a2",
+    "archive_safety_tool_sha256": "0823c9f48d4cbef435bc4ebae237160f0df729daa19fd894d66a70f311fc4737",
+    "normalizer_sha256": "e89ea55d49a044f3117e5f5b6b21c1032a9768f115f339bda907d76c943e20a4",
+    "related_repository_input_sha256": "27f19ab577696990a311162cca5e43bbbd2cb8e4f13ee5525240e1d3cd9211f4",
+    "recovery_7z_metadata_sha256": "33214a12abe7090df5bfeffe95c099034e4db9bbeddba8cd2b6dc9a60aed1a45",
+    "recovery_7z_converter_sha256": "a03c23186745442458b5755e3afc7d9795aef8c7c3aa03c14003ec3407e63b9d",
+    "limits": {
+      "max_entries": 20000,
+      "max_file_bytes": 103809024,
+      "max_total_bytes": 536870912,
+      "max_archive_bytes": 104857600,
+      "max_ratio": 200.0,
+      "max_path_depth": 64,
+      "max_path_bytes": 1024
+    },
+    "max_repository_expanded_bytes": 1073741824,
+    "max_nested_depth": 4,
+    "max_archives_per_repository": 64
+  },
+  "remote_write_performed": false,
+  "related_repositories": [
+    {
+      "name": "DIKWP-RESONANCE-MVP",
+      "url": "https://github.com/YucongDuan/DIKWP-RESONANCE-MVP"
+    },
+    {
+      "name": "DIKWP-VITA-Mesh-OS-v1.0",
+      "url": "https://github.com/YucongDuan/DIKWP-VITA-Mesh-OS-v1.0"
+    },
+    {
+      "name": "DIKWP--CONTINUUM-OS-v1.0",
+      "url": "https://github.com/YucongDuan/DIKWP--CONTINUUM-OS-v1.0"
+    },
+    {
+      "name": "DIKWP-OmegaLifeDock-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-OmegaLifeDock-OS"
+    },
+    {
+      "name": "-C1-C3-",
+      "url": "https://github.com/YucongDuan/-C1-C3-"
+    }
+  ],
+  "totals": {
+    "expanded_bytes": 147716,
+    "archives": 1,
+    "files": 31,
+    "source_files": 13,
+    "workflow_files": 0
+  },
+  "evidence_boundary": "Additive source visibility only; original code bytes preserved; no execution, license reassignment, certification, or remote write."
+}

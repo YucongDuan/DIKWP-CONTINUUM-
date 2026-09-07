@@ -1,0 +1,244 @@
+[
+  {
+    "strategy_id": "status_quo",
+    "name": "无专门连续性系统（对照）",
+    "description": "仅依赖一般医疗、普通数字备份和既有法律安排，用作合成对照而非推荐路线。",
+    "start_year": 2026,
+    "maturity_midpoint": 2026,
+    "maturity_slope": 0.8,
+    "annual_effects": {},
+    "shock_protection": {
+      "biological": 0.0,
+      "neural": 0.0,
+      "data": 0.05
+    },
+    "evidence_grade": "A",
+    "reversibility": 1.0,
+    "destructive": false,
+    "creates_branch": false,
+    "requires_human_review": false,
+    "max_autonomy": "NONE"
+  },
+  {
+    "strategy_id": "biological_maintenance",
+    "name": "生物健康与疾病预防",
+    "description": "以循证预防、早诊、风险控制和已批准治疗延长现有生物—神经闭环。",
+    "start_year": 2026,
+    "maturity_midpoint": 2026,
+    "maturity_slope": 0.8,
+    "annual_effects": {
+      "biological_viability": 0.01,
+      "neural_integrity": 0.006,
+      "embodiment_interoception": 0.004,
+      "recoverability": 0.004
+    },
+    "shock_protection": {
+      "biological": 0.3,
+      "neural": 0.15,
+      "data": 0.05
+    },
+    "evidence_grade": "A",
+    "reversibility": 0.92,
+    "destructive": false,
+    "creates_branch": false,
+    "requires_human_review": true,
+    "max_autonomy": "CLINICAL_SUPPORT"
+  },
+  {
+    "strategy_id": "repair_replacement",
+    "name": "再生医学与器官修复替换",
+    "description": "利用细胞治疗、器官移植、异种移植、组织工程和器官保存逐步减少单器官失效。",
+    "start_year": 2028,
+    "maturity_midpoint": 2038,
+    "maturity_slope": 0.22,
+    "annual_effects": {
+      "biological_viability": 0.018,
+      "recoverability": 0.014,
+      "embodiment_interoception": 0.006,
+      "legal_identity": 0.002
+    },
+    "shock_protection": {
+      "biological": 0.52,
+      "neural": 0.08,
+      "data": 0.03
+    },
+    "evidence_grade": "B",
+    "reversibility": 0.65,
+    "destructive": false,
+    "creates_branch": false,
+    "requires_human_review": true,
+    "max_autonomy": "CLINICAL_TRIAL"
+  },
+  {
+    "strategy_id": "exocortex",
+    "name": "个人外脑与记忆主权",
+    "description": "持续保存来源可审计的记忆、价值、研究路径、关系和反事实决策，形成可携带的认知外骨骼。",
+    "start_year": 2026,
+    "maturity_midpoint": 2029,
+    "maturity_slope": 0.55,
+    "annual_effects": {
+      "autobiographical_memory": 0.014,
+      "personality_values": 0.01,
+      "agency_purpose": 0.012,
+      "relational_continuity": 0.009,
+      "legal_identity": 0.007,
+      "digital_resilience": 0.018,
+      "recoverability": 0.01
+    },
+    "shock_protection": {
+      "biological": 0.03,
+      "neural": 0.1,
+      "data": 0.65
+    },
+    "evidence_grade": "B",
+    "reversibility": 0.94,
+    "destructive": false,
+    "creates_branch": true,
+    "requires_human_review": true,
+    "max_autonomy": "ADVISORY_ONLY"
+  },
+  {
+    "strategy_id": "neural_prosthetic",
+    "name": "神经保护与闭环神经假体",
+    "description": "以临床神经保护、脑机接口和特定功能神经假体维持通信、记忆和行动能力。",
+    "start_year": 2028,
+    "maturity_midpoint": 2040,
+    "maturity_slope": 0.2,
+    "annual_effects": {
+      "neural_integrity": 0.015,
+      "causal_continuity": 0.01,
+      "autobiographical_memory": 0.008,
+      "agency_purpose": 0.01,
+      "embodiment_interoception": 0.006,
+      "recoverability": 0.009,
+      "phenomenal_evidence": 0.004
+    },
+    "shock_protection": {
+      "biological": 0.1,
+      "neural": 0.46,
+      "data": 0.2
+    },
+    "evidence_grade": "C",
+    "reversibility": 0.62,
+    "destructive": false,
+    "creates_branch": false,
+    "requires_human_review": true,
+    "max_autonomy": "CLINICAL_TRIAL"
+  },
+  {
+    "strategy_id": "gradual_hybrid",
+    "name": "渐进式跨基质混合延续",
+    "description": "在原有神经过程持续运行时，用长期重叠、双向闭环和可撤销替换逐步迁移部分功能。",
+    "start_year": 2035,
+    "maturity_midpoint": 2056,
+    "maturity_slope": 0.16,
+    "annual_effects": {
+      "neural_integrity": 0.012,
+      "causal_continuity": 0.018,
+      "autobiographical_memory": 0.012,
+      "personality_values": 0.01,
+      "agency_purpose": 0.012,
+      "embodiment_interoception": 0.006,
+      "digital_resilience": 0.015,
+      "recoverability": 0.014,
+      "phenomenal_evidence": 0.01
+    },
+    "shock_protection": {
+      "biological": 0.12,
+      "neural": 0.58,
+      "data": 0.55
+    },
+    "evidence_grade": "D",
+    "reversibility": 0.58,
+    "destructive": false,
+    "creates_branch": true,
+    "requires_human_review": true,
+    "max_autonomy": "RESEARCH_ONLY"
+  },
+  {
+    "strategy_id": "destructive_upload",
+    "name": "破坏性扫描与数字上传",
+    "description": "通过不可逆组织获取和计算重建产生高保真数字后继，但原有神经因果链终止。",
+    "start_year": 2040,
+    "maturity_midpoint": 2070,
+    "maturity_slope": 0.12,
+    "annual_effects": {
+      "autobiographical_memory": 0.02,
+      "personality_values": 0.018,
+      "agency_purpose": 0.016,
+      "relational_continuity": 0.01,
+      "legal_identity": 0.012,
+      "digital_resilience": 0.024,
+      "recoverability": 0.018
+    },
+    "shock_protection": {
+      "biological": 0.0,
+      "neural": 0.0,
+      "data": 0.7
+    },
+    "evidence_grade": "X",
+    "reversibility": 0.02,
+    "destructive": true,
+    "creates_branch": true,
+    "requires_human_review": true,
+    "max_autonomy": "BLOCKED"
+  },
+  {
+    "strategy_id": "biostasis",
+    "name": "生物停滞与未来复苏兜底",
+    "description": "在不可避免死亡或灾难时保存结构信息与潜在可恢复性，作为低证据、高不确定性的最后兜底。",
+    "start_year": 2026,
+    "maturity_midpoint": 2050,
+    "maturity_slope": 0.1,
+    "annual_effects": {
+      "recoverability": 0.02,
+      "autobiographical_memory": 0.004,
+      "digital_resilience": 0.006,
+      "legal_identity": 0.004
+    },
+    "shock_protection": {
+      "biological": 0.18,
+      "neural": 0.2,
+      "data": 0.2
+    },
+    "evidence_grade": "E",
+    "reversibility": 0.2,
+    "destructive": false,
+    "creates_branch": false,
+    "requires_human_review": true,
+    "max_autonomy": "CONTINGENCY_ONLY"
+  },
+  {
+    "strategy_id": "continuum_portfolio",
+    "name": "DIKWP-CONTINUUM²组合路线",
+    "description": "以生物续命为主轴、外脑与数字孪生为日常层、器官替换和神经假体为桥接层、渐进迁移为条件性前沿、停滞为兜底，并禁止把破坏性复制宣传为本人永生。",
+    "start_year": 2026,
+    "maturity_midpoint": 2034,
+    "maturity_slope": 0.3,
+    "annual_effects": {
+      "biological_viability": 0.015,
+      "neural_integrity": 0.012,
+      "causal_continuity": 0.01,
+      "autobiographical_memory": 0.015,
+      "personality_values": 0.012,
+      "agency_purpose": 0.014,
+      "embodiment_interoception": 0.007,
+      "relational_continuity": 0.01,
+      "legal_identity": 0.01,
+      "digital_resilience": 0.018,
+      "recoverability": 0.016,
+      "phenomenal_evidence": 0.005
+    },
+    "shock_protection": {
+      "biological": 0.48,
+      "neural": 0.44,
+      "data": 0.72
+    },
+    "evidence_grade": "B",
+    "reversibility": 0.82,
+    "destructive": false,
+    "creates_branch": true,
+    "requires_human_review": true,
+    "max_autonomy": "HUMAN_GATED_PORTFOLIO"
+  }
+]

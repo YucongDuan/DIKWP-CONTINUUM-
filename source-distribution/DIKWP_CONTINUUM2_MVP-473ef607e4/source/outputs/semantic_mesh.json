@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "node_id": "n1",
+      "text": "延续不是复制，而是因果历史是否仍能影响未来行动",
+      "dikwp_mix": {
+        "K": 0.5,
+        "W": 0.25,
+        "P": 0.25
+      },
+      "observer": "段玉聪本人",
+      "context": "身份连续",
+      "provenance": "purpose interview"
+    },
+    {
+      "node_id": "n2",
+      "text": "神经过程是否保持无破坏重叠",
+      "dikwp_mix": {
+        "D": 0.4,
+        "I": 0.3,
+        "K": 0.3
+      },
+      "observer": "神经科学团队",
+      "context": "渐进替换",
+      "provenance": "neural measurements"
+    },
+    {
+      "node_id": "n3",
+      "text": "任何不可逆扫描不得被宣传为已证明本人继续存在",
+      "dikwp_mix": {
+        "W": 0.5,
+        "P": 0.4,
+        "K": 0.1
+      },
+      "observer": "伦理委员会",
+      "context": "破坏性上传",
+      "provenance": "governance rule"
+    },
+    {
+      "node_id": "n4",
+      "text": "家庭是否仍承认其承诺、关系与责任",
+      "dikwp_mix": {
+        "I": 0.25,
+        "K": 0.2,
+        "W": 0.35,
+        "P": 0.2
+      },
+      "observer": "家属与长期合作者",
+      "context": "关系连续",
+      "provenance": "relational testimony"
+    },
+    {
+      "node_id": "n5",
+      "text": "数字代理能否在未知问题上重现价值冲突中的选择",
+      "dikwp_mix": {
+        "D": 0.25,
+        "I": 0.25,
+        "K": 0.3,
+        "P": 0.2
+      },
+      "observer": "独立评测组",
+      "context": "心理连续",
+      "provenance": "blind challenge"
+    },
+    {
+      "node_id": "n6",
+      "text": "未来后继体拥有拒绝被复制、重写或合并的程序权",
+      "dikwp_mix": {
+        "W": 0.45,
+        "P": 0.45,
+        "I": 0.1
+      },
+      "observer": "潜在数字后继体",
+      "context": "主体权利",
+      "provenance": "successor representation"
+    },
+    {
+      "node_id": "n7",
+      "text": "身体内感受和情绪调节是否仍参与目的形成",
+      "dikwp_mix": {
+        "D": 0.3,
+        "I": 0.2,
+        "K": 0.25,
+        "W": 0.25
+      },
+      "observer": "临床与体验研究组",
+      "context": "具身连续",
+      "provenance": "interoception tests"
+    },
+    {
+      "node_id": "n8",
+      "text": "法律主体是否随密钥、记忆与责任谱系迁移",
+      "dikwp_mix": {
+        "K": 0.3,
+        "W": 0.3,
+        "P": 0.4
+      },
+      "observer": "法律受托人",
+      "context": "法律连续",
+      "provenance": "continuity trust"
+    },
+    {
+      "node_id": "n9",
+      "text": "允许多个身份理论并存，不用单一总分封闭争议",
+      "dikwp_mix": {
+        "K": 0.35,
+        "W": 0.35,
+        "P": 0.3
+      },
+      "observer": "DIKWP-MESH²审计器",
+      "context": "概念解缚",
+      "provenance": "system rule"
+    },
+    {
+      "node_id": "n10",
+      "text": "系统必须保留现象意识残差而不是宣布上传成功",
+      "dikwp_mix": {
+        "K": 0.3,
+        "W": 0.45,
+        "P": 0.25
+      },
+      "observer": "意识科学顾问",
+      "context": "意识连续",
+      "provenance": "indicator framework"
+    }
+  ],
+  "transforms": [
+    {
+      "transform_id": "t01",
+      "source_node": "n1",
+      "target_node": "n2",
+      "source_type": "D",
+      "target_type": "D",
+      "observer": "神经科学团队",
+      "context": "continuity-transform-DD",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.72
+    },
+    {
+      "transform_id": "t02",
+      "source_node": "n2",
+      "target_node": "n5",
+      "source_type": "D",
+      "target_type": "I",
+      "observer": "独立评测组",
+      "context": "continuity-transform-DI",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.76
+    },
+    {
+      "transform_id": "t03",
+      "source_node": "n3",
+      "target_node": "n8",
+      "source_type": "D",
+      "target_type": "K",
+      "observer": "法律受托人",
+      "context": "continuity-transform-DK",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "transform_id": "t04",
+      "source_node": "n4",
+      "target_node": "n1",
+      "source_type": "D",
+      "target_type": "W",
+      "observer": "段玉聪本人",
+      "context": "continuity-transform-DW",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.84
+    },
+    {
+      "transform_id": "t05",
+      "source_node": "n5",
+      "target_node": "n4",
+      "source_type": "D",
+      "target_type": "P",
+      "observer": "家属与长期合作者",
+      "context": "continuity-transform-DP",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.88
+    },
+    {
+      "transform_id": "t06",
+      "source_node": "n6",
+      "target_node": "n7",
+      "source_type": "I",
+      "target_type": "D",
+      "observer": "临床与体验研究组",
+      "context": "continuity-transform-ID",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.72
+    },
+    {
+      "transform_id": "t07",
+      "source_node": "n7",
+      "target_node": "n10",
+      "source_type": "I",
+      "target_type": "I",
+      "observer": "意识科学顾问",
+      "context": "continuity-transform-II",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.76
+    },
+    {
+      "transform_id": "t08",
+      "source_node": "n8",
+      "target_node": "n3",
+      "source_type": "I",
+      "target_type": "K",
+      "observer": "伦理委员会",
+      "context": "continuity-transform-IK",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "transform_id": "t09",
+      "source_node": "n9",
+      "target_node": "n6",
+      "source_type": "I",
+      "target_type": "W",
+      "observer": "潜在数字后继体",
+      "context": "continuity-transform-IW",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.84
+    },
+    {
+      "transform_id": "t10",
+      "source_node": "n10",
+      "target_node": "n9",
+      "source_type": "I",
+      "target_type": "P",
+      "observer": "DIKWP-MESH²审计器",
+      "context": "continuity-transform-IP",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.88
+    },
+    {
+      "transform_id": "t11",
+      "source_node": "n1",
+      "target_node": "n2",
+      "source_type": "K",
+      "target_type": "D",
+      "observer": "神经科学团队",
+      "context": "continuity-transform-KD",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.72
+    },
+    {
+      "transform_id": "t12",
+      "source_node": "n2",
+      "target_node": "n5",
+      "source_type": "K",
+      "target_type": "I",
+      "observer": "独立评测组",
+      "context": "continuity-transform-KI",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.76
+    },
+    {
+      "transform_id": "t13",
+      "source_node": "n3",
+      "target_node": "n8",
+      "source_type": "K",
+      "target_type": "K",
+      "observer": "法律受托人",
+      "context": "continuity-transform-KK",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "transform_id": "t14",
+      "source_node": "n4",
+      "target_node": "n1",
+      "source_type": "K",
+      "target_type": "W",
+      "observer": "段玉聪本人",
+      "context": "continuity-transform-KW",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.84
+    },
+    {
+      "transform_id": "t15",
+      "source_node": "n5",
+      "target_node": "n4",
+      "source_type": "K",
+      "target_type": "P",
+      "observer": "家属与长期合作者",
+      "context": "continuity-transform-KP",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.88
+    },
+    {
+      "transform_id": "t16",
+      "source_node": "n6",
+      "target_node": "n7",
+      "source_type": "W",
+      "target_type": "D",
+      "observer": "临床与体验研究组",
+      "context": "continuity-transform-WD",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.72
+    },
+    {
+      "transform_id": "t17",
+      "source_node": "n7",
+      "target_node": "n10",
+      "source_type": "W",
+      "target_type": "I",
+      "observer": "意识科学顾问",
+      "context": "continuity-transform-WI",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.76
+    },
+    {
+      "transform_id": "t18",
+      "source_node": "n8",
+      "target_node": "n3",
+      "source_type": "W",
+      "target_type": "K",
+      "observer": "伦理委员会",
+      "context": "continuity-transform-WK",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "transform_id": "t19",
+      "source_node": "n9",
+      "target_node": "n6",
+      "source_type": "W",
+      "target_type": "W",
+      "observer": "潜在数字后继体",
+      "context": "continuity-transform-WW",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.84
+    },
+    {
+      "transform_id": "t20",
+      "source_node": "n10",
+      "target_node": "n9",
+      "source_type": "W",
+      "target_type": "P",
+      "observer": "DIKWP-MESH²审计器",
+      "context": "continuity-transform-WP",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.88
+    },
+    {
+      "transform_id": "t21",
+      "source_node": "n1",
+      "target_node": "n2",
+      "source_type": "P",
+      "target_type": "D",
+      "observer": "神经科学团队",
+      "context": "continuity-transform-PD",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.72
+    },
+    {
+      "transform_id": "t22",
+      "source_node": "n2",
+      "target_node": "n5",
+      "source_type": "P",
+      "target_type": "I",
+      "observer": "独立评测组",
+      "context": "continuity-transform-PI",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.76
+    },
+    {
+      "transform_id": "t23",
+      "source_node": "n3",
+      "target_node": "n8",
+      "source_type": "P",
+      "target_type": "K",
+      "observer": "法律受托人",
+      "context": "continuity-transform-PK",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "transform_id": "t24",
+      "source_node": "n4",
+      "target_node": "n1",
+      "source_type": "P",
+      "target_type": "W",
+      "observer": "段玉聪本人",
+      "context": "continuity-transform-PW",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.84
+    },
+    {
+      "transform_id": "t25",
+      "source_node": "n5",
+      "target_node": "n4",
+      "source_type": "P",
+      "target_type": "P",
+      "observer": "家属与长期合作者",
+      "context": "continuity-transform-PP",
+      "rationale": "将一种语义资源转化为另一种资源，用于检验连续性、约束行动或提出新观测。",
+      "confidence": 0.88
+    }
+  ],
+  "type_pair_counts": {
+    "D->D": 1,
+    "D->I": 1,
+    "D->K": 1,
+    "D->P": 1,
+    "D->W": 1,
+    "I->D": 1,
+    "I->I": 1,
+    "I->K": 1,
+    "I->P": 1,
+    "I->W": 1,
+    "K->D": 1,
+    "K->I": 1,
+    "K->K": 1,
+    "K->P": 1,
+    "K->W": 1,
+    "P->D": 1,
+    "P->I": 1,
+    "P->K": 1,
+    "P->P": 1,
+    "P->W": 1,
+    "W->D": 1,
+    "W->I": 1,
+    "W->K": 1,
+    "W->P": 1,
+    "W->W": 1
+  },
+  "network_audit": {
+    "transform_coverage": 1.0,
+    "observer_count": 10,
+    "largest_strong_component": 4,
+    "has_cycle": true,
+    "hierarchy_leakage": 0.0,
+    "verdict": "NETWORK_COMPATIBLE"
+  }
+}

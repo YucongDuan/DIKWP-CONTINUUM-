@@ -1,0 +1,397 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:18:29.312951+00:00",
+  "source": {
+    "archive_path": "DIKWP_CONTINUUM2_MVP.zip",
+    "archive_bytes": 55356,
+    "sha256": "1b61b54921e2812da468d3901c019a9a4f875047761dfb1ed205617aee06d47d",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-CONTINUUM-/ce6745a0a07007c3e1593b45bb626b27d4c3be1c/DIKWP_CONTINUUM2_MVP.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/DIKWP_CONTINUUM2_MVP-473ef607e4",
+  "unwrapped_directory": "DIKWP_CONTINUUM2_MVP",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/",
+      "output_path": "source",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/",
+      "output_path": "source/src",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/",
+      "output_path": "source/src/dikwp_continuum2",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/__init__.py",
+      "output_path": "source/src/dikwp_continuum2/__init__.py",
+      "kind": "file",
+      "bytes": 67,
+      "sha256": "36b83d68a9347c129a9b5f7fcbc69fc05a74cce12cc1b8c3a0ef77d8298ef4ca",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/models.py",
+      "output_path": "source/src/dikwp_continuum2/models.py",
+      "kind": "file",
+      "bytes": 4535,
+      "sha256": "53312ca8c7b60cf6025bbf9afae185860b6b9a72eef8f05e3830aaebda4c5121",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/config.py",
+      "output_path": "source/src/dikwp_continuum2/config.py",
+      "kind": "file",
+      "bytes": 1346,
+      "sha256": "3d88846029610d8fd88e37a1f68293518c69c12b4951b702de7021ce36779009",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/semantic_mesh.py",
+      "output_path": "source/src/dikwp_continuum2/semantic_mesh.py",
+      "kind": "file",
+      "bytes": 7877,
+      "sha256": "b2bc231daedde13276ceea3afb88352bb9546abbe3e192e602d926513b175926",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/gates.py",
+      "output_path": "source/src/dikwp_continuum2/gates.py",
+      "kind": "file",
+      "bytes": 3094,
+      "sha256": "2a4b10a955edf80cc5b8ff60ef9bd868f1b1fa8feb4b51c1aefa6914f7a2b6f4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/identity.py",
+      "output_path": "source/src/dikwp_continuum2/identity.py",
+      "kind": "file",
+      "bytes": 2948,
+      "sha256": "eba15859975d984a817e93a38a54c22b9c068cff3f66a754183e7a3f6a18adc2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/simulator.py",
+      "output_path": "source/src/dikwp_continuum2/simulator.py",
+      "kind": "file",
+      "bytes": 18040,
+      "sha256": "a66d0e46a3ddd28d0560e79628ed1e94a3e605c0f459a8fc242ed03eb442339a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/reporting.py",
+      "output_path": "source/src/dikwp_continuum2/reporting.py",
+      "kind": "file",
+      "bytes": 14804,
+      "sha256": "dc7fa790b60f9cdda9818612e6789c93ba50ec6d8feb90c6265920f8bff8deca",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/forecasts.py",
+      "output_path": "source/src/dikwp_continuum2/forecasts.py",
+      "kind": "file",
+      "bytes": 3879,
+      "sha256": "36b421746a2a4e30a37e55e0efcc371013ed2960b7523bf3c599c8e74bd40ddc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/cli.py",
+      "output_path": "source/src/dikwp_continuum2/cli.py",
+      "kind": "file",
+      "bytes": 3512,
+      "sha256": "286159f3fa50adf9c42deb7ba76f3ec06e9e80b85be687612cb032427a2ce958",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/src/dikwp_continuum2/__main__.py",
+      "output_path": "source/src/dikwp_continuum2/__main__.py",
+      "kind": "file",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/config/",
+      "output_path": "source/config",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/config/identity_hypotheses.json",
+      "output_path": "source/config/identity_hypotheses.json",
+      "kind": "file",
+      "bytes": 2886,
+      "sha256": "0b41bbdc97d2253719801c7c52f2622d1eba53958028eae3d69aa93d785d2e24",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/config/strategies.json",
+      "output_path": "source/config/strategies.json",
+      "kind": "file",
+      "bytes": 7525,
+      "sha256": "1c1c295ec3a7e4da33e7ef02a19e283a0a43bac31d8ef9b5f170d6303a8e8f2d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/config/technology_milestones.json",
+      "output_path": "source/config/technology_milestones.json",
+      "kind": "file",
+      "bytes": 658,
+      "sha256": "286d83db801234625cfb1342636585ae414f0d933fedd600147cfb51557a1733",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/examples/",
+      "output_path": "source/examples",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/examples/duan_yucong_synthetic_profile.json",
+      "output_path": "source/examples/duan_yucong_synthetic_profile.json",
+      "kind": "file",
+      "bytes": 2148,
+      "sha256": "63c225861817c3982dcb901b0d2fbae2c8cfaca8da707978786b66bd3573f901",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/schemas/",
+      "output_path": "source/schemas",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/schemas/purpose_contract.schema.json",
+      "output_path": "source/schemas/purpose_contract.schema.json",
+      "kind": "file",
+      "bytes": 839,
+      "sha256": "70581588a297bbd00368d2094f4bf9319c8d3433d3e82b5d3d56c68113c87787",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/schemas/continuity_profile.schema.json",
+      "output_path": "source/schemas/continuity_profile.schema.json",
+      "kind": "file",
+      "bytes": 759,
+      "sha256": "a4c13f2289557d5f0d491e3d9ccf9b08da55373c51b03749601330768b4f726b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/tests/",
+      "output_path": "source/tests",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/tests/test_system.py",
+      "output_path": "source/tests/test_system.py",
+      "kind": "file",
+      "bytes": 4066,
+      "sha256": "75d5066cde5473405181bdb59824c4a176a340d8eb95ea79b219174c9f720208",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/",
+      "output_path": "source/outputs",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/strategy_summaries.json",
+      "output_path": "source/outputs/strategy_summaries.json",
+      "kind": "file",
+      "bytes": 6832,
+      "sha256": "1f289ea6947978b29b6e2b30b9b3701fc0fe9c91c374db5a87f9db1a9430cfa6",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/strategy_summaries.csv",
+      "output_path": "source/outputs/strategy_summaries.csv",
+      "kind": "file",
+      "bytes": 1285,
+      "sha256": "3e7efbcb44a1fadcb7c9bf5f62f1bea3b5ba230213f4398187fdd34b4c4d0238",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/example_trials.json",
+      "output_path": "source/outputs/example_trials.json",
+      "kind": "file",
+      "bytes": 15455,
+      "sha256": "0766c33d49fc24e9f99efb47b5ec9dee0e4a53f0e159ad91fbf6a6b98e4061a2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/gate_catalog.json",
+      "output_path": "source/outputs/gate_catalog.json",
+      "kind": "file",
+      "bytes": 3850,
+      "sha256": "adf931caeabbe3bb3852fc41cf2ed5d506f9aa2e9b15f12c61e7702bc664986f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/semantic_mesh.json",
+      "output_path": "source/outputs/semantic_mesh.json",
+      "kind": "file",
+      "bytes": 13536,
+      "sha256": "13d016b96efab17df2c6858ad9863f0949ef00fa99ac5066e6fe3d0e6ca8e91a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/identity_ledger.json",
+      "output_path": "source/outputs/identity_ledger.json",
+      "kind": "file",
+      "bytes": 2786,
+      "sha256": "0f0397b2d5eabd4c89b4322c3e20161cb11e75bf3192c35650e8475fccd6e90b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/forecast_contracts.json",
+      "output_path": "source/outputs/forecast_contracts.json",
+      "kind": "file",
+      "bytes": 3116,
+      "sha256": "3d508495a8fe391369486c168028a6c2ffbe3003aa2cbfbcc517a8a8bd4370af",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/RUN_PROOF.json",
+      "output_path": "source/outputs/RUN_PROOF.json",
+      "kind": "file",
+      "bytes": 329,
+      "sha256": "cd06cef704d9663f6589f952ad0be7471910791c0620d7165cda6fa08e0f25d0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/outputs/dashboard.html",
+      "output_path": "source/outputs/dashboard.html",
+      "kind": "file",
+      "bytes": 14266,
+      "sha256": "37a3b7ad0e5283c6a985e6f66601d51f1119c490f8f871a4544c6c4a56569782",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/docs/",
+      "output_path": "source/docs",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/pyproject.toml",
+      "output_path": "source/pyproject.toml",
+      "kind": "file",
+      "bytes": 453,
+      "sha256": "64d4233e502e9e9ba7cd172b4e6063834fc2c04286ac11ea79730fc63df55208",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/LICENSE",
+      "output_path": "source/LICENSE",
+      "kind": "file",
+      "bytes": 644,
+      "sha256": "71b88f69da1aa42757ed4b22e322956cbb9148061b3c0b548055405d6e95475c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 1808,
+      "sha256": "915335428e23a5cdba8c7c43da626cc6b3b974cc0c021d2ce15840aab2551a7f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_CONTINUUM2_MVP/MANIFEST.sha256",
+      "output_path": "source/MANIFEST.sha256",
+      "kind": "file",
+      "bytes": 4325,
+      "sha256": "33caccf43d46b52f4d2a95b60ff08be103eb9ff97768503cf52fc55cfc0bebc4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

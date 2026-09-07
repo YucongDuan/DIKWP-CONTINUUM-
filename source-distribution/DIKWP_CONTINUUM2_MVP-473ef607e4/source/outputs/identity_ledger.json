@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "node_id": "DYC-BIO-2026",
+      "parent_ids": [],
+      "year": 2026,
+      "operation": "BASELINE_BIOLOGICAL_PROCESS",
+      "continuity_axes": {
+        "biological_viability": 0.88,
+        "neural_integrity": 0.92,
+        "causal_continuity": 0.94,
+        "autobiographical_memory": 0.86,
+        "personality_values": 0.9,
+        "agency_purpose": 0.93,
+        "embodiment_interoception": 0.86,
+        "relational_continuity": 0.84,
+        "legal_identity": 0.9,
+        "digital_resilience": 0.62,
+        "recoverability": 0.55,
+        "phenomenal_evidence": 0.82
+      },
+      "claim": "ORIGINAL_BIOLOGICAL_PERSON",
+      "consent_status": "SIGNED_PURPOSE_CONTRACT"
+    },
+    {
+      "node_id": "DYC-EXOCORTEX-2029",
+      "parent_ids": [
+        "DYC-BIO-2026"
+      ],
+      "year": 2029,
+      "operation": "REVERSIBLE_MEMORY_MIRROR",
+      "continuity_axes": {
+        "autobiographical_memory": 0.7,
+        "personality_values": 0.45,
+        "agency_purpose": 0.4,
+        "digital_resilience": 0.75,
+        "causal_continuity": 0.25
+      },
+      "claim": "NON_PERSONAL_COGNITIVE_AID",
+      "consent_status": "REVOCABLE"
+    },
+    {
+      "node_id": "DYC-HYBRID-CANDIDATE-2100",
+      "parent_ids": [
+        "DYC-BIO-2026",
+        "DYC-EXOCORTEX-2029"
+      ],
+      "year": 2100,
+      "operation": "SYNTHETIC_PORTFOLIO_OUTCOME",
+      "continuity_axes": {
+        "biological_viability": 0.607706,
+        "neural_integrity": 0.356285,
+        "causal_continuity": 1.0,
+        "autobiographical_memory": 0.933854,
+        "personality_values": 1.0,
+        "agency_purpose": 1.0,
+        "embodiment_interoception": 0.745823,
+        "relational_continuity": 1.0,
+        "legal_identity": 0.999063,
+        "digital_resilience": 0.96371,
+        "recoverability": 0.92812,
+        "phenomenal_evidence": 0.753001
+      },
+      "claim": "CONTINUITY_CANDIDATE_NOT_PROVEN",
+      "consent_status": "ADVISORY_SIMULATION_ONLY"
+    },
+    {
+      "node_id": "DYC-UPLOAD-BRANCH-2100",
+      "parent_ids": [
+        "DYC-BIO-2026"
+      ],
+      "year": 2100,
+      "operation": "DESTRUCTIVE_SCAN_BRANCH",
+      "continuity_axes": {
+        "biological_viability": 0.046842,
+        "neural_integrity": 0.401547,
+        "causal_continuity": 0.9855,
+        "autobiographical_memory": 0.907248,
+        "personality_values": 0.92605,
+        "agency_purpose": 0.986247,
+        "embodiment_interoception": 0.596397,
+        "relational_continuity": 0.817606,
+        "legal_identity": 0.965961,
+        "digital_resilience": 0.844922,
+        "recoverability": 0.468409,
+        "phenomenal_evidence": 0.750357
+      },
+      "claim": "SUCCESSOR_OR_ARCHIVE_ONLY",
+      "consent_status": "BLOCKED_AS_SAME_PERSON_CLAIM"
+    }
+  ]
+}

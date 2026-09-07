@@ -1,0 +1,10 @@
+{
+  "health_digital_twin": {"midpoint": 2030, "slope": 0.35, "impact": 0.10},
+  "organ_banking_and_replacement": {"midpoint": 2040, "slope": 0.20, "impact": 0.14},
+  "long_term_home_bci": {"midpoint": 2038, "slope": 0.22, "impact": 0.11},
+  "cognitive_neuroprosthesis": {"midpoint": 2047, "slope": 0.16, "impact": 0.13},
+  "non_destructive_brain_state_mapping": {"midpoint": 2058, "slope": 0.12, "impact": 0.15},
+  "gradual_substrate_replacement": {"midpoint": 2070, "slope": 0.10, "impact": 0.18},
+  "whole_brain_emulation": {"midpoint": 2080, "slope": 0.09, "impact": 0.20},
+  "legal_branch_personhood": {"midpoint": 2055, "slope": 0.12, "impact": 0.08}
+}

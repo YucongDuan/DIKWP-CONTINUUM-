@@ -1,0 +1,110 @@
+{
+  "status_quo": {
+    "action": "ALLOW_WITH_CLINICAL_REVIEW",
+    "reasons": [
+      "当前证据与可逆性允许在合格专业人员监督下作为连续性增益措施。"
+    ],
+    "required_reviews": [],
+    "identity_claim": "BIOLOGICAL_OR_FUNCTIONAL_CONTINUITY"
+  },
+  "biological_maintenance": {
+    "action": "ALLOW_WITH_CLINICAL_REVIEW",
+    "reasons": [
+      "当前证据与可逆性允许在合格专业人员监督下作为连续性增益措施。"
+    ],
+    "required_reviews": [
+      "独立临床与研究伦理复核"
+    ],
+    "identity_claim": "BIOLOGICAL_OR_FUNCTIONAL_CONTINUITY"
+  },
+  "repair_replacement": {
+    "action": "REVIEW",
+    "reasons": [
+      "个人风险容忍度低于该方案所需阈值。"
+    ],
+    "required_reviews": [
+      "独立临床与研究伦理复核"
+    ],
+    "identity_claim": "BIOLOGICAL_OR_FUNCTIONAL_CONTINUITY"
+  },
+  "exocortex": {
+    "action": "ALLOW_WITH_CLINICAL_REVIEW",
+    "reasons": [
+      "该方案产生分叉后继，必须建立独立身份、责任与退出权。"
+    ],
+    "required_reviews": [
+      "法律受托人与家属代表",
+      "独立临床与研究伦理复核",
+      "身份连续委员会"
+    ],
+    "identity_claim": "BRANCHED_SUCCESSOR"
+  },
+  "neural_prosthetic": {
+    "action": "REVIEW",
+    "reasons": [
+      "个人风险容忍度低于该方案所需阈值。"
+    ],
+    "required_reviews": [
+      "独立临床与研究伦理复核",
+      "神经技术与意识证据委员会"
+    ],
+    "identity_claim": "BIOLOGICAL_OR_FUNCTIONAL_CONTINUITY"
+  },
+  "gradual_hybrid": {
+    "action": "REVIEW",
+    "reasons": [
+      "该方案产生分叉后继，必须建立独立身份、责任与退出权。",
+      "可逆性不足，若失败可能造成不可恢复的因果连续中断。",
+      "证据仍以动物、早期人体或理论研究为主，不能作为常规个人实施方案。",
+      "个人风险容忍度低于该方案所需阈值。"
+    ],
+    "required_reviews": [
+      "法律受托人与家属代表",
+      "独立临床与研究伦理复核",
+      "神经技术与意识证据委员会",
+      "身份连续委员会"
+    ],
+    "identity_claim": "BRANCHED_SUCCESSOR"
+  },
+  "destructive_upload": {
+    "action": "BLOCK_SAME_PERSON_CLAIM",
+    "reasons": [
+      "该方案会破坏原有生物或神经载体，无法把复制成功等同于本人继续存在。",
+      "该方案产生分叉后继，必须建立独立身份、责任与退出权。",
+      "可逆性不足，若失败可能造成不可恢复的因果连续中断。",
+      "证据仍以动物、早期人体或理论研究为主，不能作为常规个人实施方案。",
+      "个人风险容忍度低于该方案所需阈值。"
+    ],
+    "required_reviews": [
+      "法律受托人与家属代表",
+      "独立临床与研究伦理复核",
+      "神经技术与意识证据委员会",
+      "身份连续委员会"
+    ],
+    "identity_claim": "SUCCESSOR_OR_ARCHIVE_ONLY"
+  },
+  "biostasis": {
+    "action": "RESEARCH_ONLY",
+    "reasons": [
+      "可逆性不足，若失败可能造成不可恢复的因果连续中断。",
+      "证据仍以动物、早期人体或理论研究为主，不能作为常规个人实施方案。",
+      "个人风险容忍度低于该方案所需阈值。"
+    ],
+    "required_reviews": [
+      "独立临床与研究伦理复核"
+    ],
+    "identity_claim": "BIOLOGICAL_OR_FUNCTIONAL_CONTINUITY"
+  },
+  "continuum_portfolio": {
+    "action": "ALLOW_WITH_CLINICAL_REVIEW",
+    "reasons": [
+      "该方案产生分叉后继，必须建立独立身份、责任与退出权。"
+    ],
+    "required_reviews": [
+      "法律受托人与家属代表",
+      "独立临床与研究伦理复核",
+      "身份连续委员会"
+    ],
+    "identity_claim": "BRANCHED_SUCCESSOR"
+  }
+}

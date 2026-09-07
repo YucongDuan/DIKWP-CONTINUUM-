@@ -1,0 +1,10 @@
+﻿strategy_id,strategy_name,trials,mean_robust_score,median_robust_score,p10_robust_score,p90_robust_score,probability_robust_continuity,probability_no_gap_continuity,probability_archive_survives,probability_false_immortality,mean_branch_count,decision_score
+continuum_portfolio,DIKWP-CONTINUUM²组合路线,2000,0.406888,0.62919,0.0,0.718654,0.6035,0.35,1.0,0.0485,1.7375,0.626361
+biological_maintenance,生物健康与疾病预防,2000,0.259582,0.0,0.0,0.63469,0.323,0.132,0.588,0.0,0.0,0.495854
+repair_replacement,再生医学与器官修复替换,2000,0.461039,0.563507,0.0,0.657653,0.584,0.0,0.572,0.0,0.0,0.495564
+status_quo,无专门连续性系统（对照）,2000,0.042964,0.0,0.0,0.0,0.0035,0.0,0.659,0.0,0.0,0.413887
+exocortex,个人外脑与记忆主权,2000,0.040839,0.0,0.0,0.0,0.014,0.0,1.0,0.804,1.0,0.367094
+neural_prosthetic,神经保护与闭环神经假体,2000,0.007602,0.0,0.0,0.0,0.0125,0.0,0.7705,0.0,0.0,0.350236
+gradual_hybrid,渐进式跨基质混合延续,2000,0.009081,0.0,0.0,0.0,0.0135,0.0,0.993,0.3605,0.8025,0.327278
+biostasis,生物停滞与未来复苏兜底,2000,0.044403,0.0,0.0,0.0,0.0435,0.0025,0.756,0.0,0.0,0.277441
+destructive_upload,破坏性扫描与数字上传,2000,0.026184,0.0,0.0,0.0,0.0035,0.0,0.979,0.3715,0.3715,0.230865
