@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+if __package__:
+    from ._ui_presentation import localize_html as _ui_localize_html
+else:
+    from _ui_presentation import localize_html as _ui_localize_html
+
+
 import csv
 import hashlib
 import html
@@ -30,7 +36,7 @@ AXIS_LABELS = {
 
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    path.write_text(_ui_localize_html(json.dumps(payload, ensure_ascii=False, indent=2)), encoding="utf-8")
 
 
 def write_strategy_csv(path: Path, summaries: Sequence[StrategySummary]) -> None:
@@ -221,7 +227,7 @@ section{{margin-top:26px}}h2{{font-size:25px;margin:0 0 14px}}h3{{margin-top:0}}
 <footer>DIKWP-CONTINUUM² offline dashboard · generated {html.escape(str(run_meta['generated_at']))} · research and governance prototype only</footer>
 </main></body></html>"""
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(html_text, encoding="utf-8")
+    output_path.write_text(_ui_localize_html(html_text), encoding="utf-8")
 
 
 def write_manifest(root: Path, output_file: Path) -> None:
@@ -231,4 +237,4 @@ def write_manifest(root: Path, output_file: Path) -> None:
             continue
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         lines.append(f"{digest}  {path.relative_to(root).as_posix()}")
-    output_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    output_file.write_text(_ui_localize_html("\n".join(lines) + "\n"), encoding="utf-8")
